@@ -32,12 +32,11 @@ const LandPage = () =>{
     return(
         <div className="bg-black">
         <Navbar />
-        <Hero />
-
+        <Collage />
         <Collage2 />
-
-
        <Timeline />
+       <Hero />
+
        <About />
 
         <Feature />

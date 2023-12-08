@@ -7,8 +7,9 @@ const Collage = () => {
       <div class="container">
   <div class="box">
     <img src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/9b60e655-de16-489c-1555-1b41fdd6cb00/public" />
-    <span>CSS</span>
-  </div>
+    <div class="h-6 bg-gray-400 opacity-50 w-full">
+          Username
+        </div> </div>
   <div class="box">
     <img src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/632e19bb-2b5e-4739-0b24-9f97c68c7000/public" />
     <span>Image</span>

@@ -11,9 +11,8 @@ export default function TissuePage() {
   const child2 = { width: `400px`, height: `100%` };
 
   return (
-    <div className="h-screen w-screen">
-        <Navbar />
-        <AwesomeScroll />
+    <div className="h-full w-full">
+      
         <div class="external">
   <div class="horizontal-scroll-wrapper">
     <div class="img-wrapper slower">
@@ -86,7 +85,6 @@ export default function TissuePage() {
 </div>
 
 
-<Footer />
 
 
     </div>

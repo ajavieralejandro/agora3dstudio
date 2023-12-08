@@ -1,11 +1,12 @@
-import { Routes, Route } from "react-router-dom";
+import Artists from "./Pages/Artists/artists";
 import LandPage from "./Pages/LandPage/landPage";
-import Timeline from "./Components/Timeline/timeline";
+
+import { Route,Switch,HashRouter,Routes } from "react-router-dom";
+
 const App = () => {
   return (
-    <>
-     <LandPage/>
-    </>
+  <Artists />
+
   );
 };
 

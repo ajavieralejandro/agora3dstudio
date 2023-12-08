@@ -1,9 +1,11 @@
 import './timeline.css';
 import Gallery from '../Gallery/gallery';
-
+import TissuePage from '../../Pages/LandPage/TissuePage/tissueProject';
+import Academy from '../../Pages/LandPage/Accademy/academy';
+import Testimonial from '../Artists/terstimonial/testimonial';
 const Timeline = () =>{
     return(
-      <section>
+      <section className='bg-black timeline'>
           <div class="bg-black text-white py-8">
           <div class="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
             <div class="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
@@ -18,7 +20,7 @@ const Timeline = () =>{
             </div>
             <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
               <div class="container mx-auto w-full h-full">
-              <Gallery />
+              <Testimonial />
             </div>
           </div>
         </div>

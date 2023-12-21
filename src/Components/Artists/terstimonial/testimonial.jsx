@@ -1,63 +1,23 @@
-import React from "react";
+import React,{useState} from "react";
 import Gallery from "../../Gallery/gallery";
 import Card from "../Card/card";
 import TissuePage from "../../../Pages/LandPage/TissuePage/tissueProject";
+import ArtistCard from "../Card/artistCard/artistCard";
+
+
 const Testimonial = () =>{
     return (
-        <div className="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
+        <div className="testimonial bg-black">
 
 <div className="mx-auto">
+<ArtistCard text="Junto a Horacio hemos trabajado en varias oportunidades, siempre en torno al diagnóstico por imágenes, en esta oportunidad nos encontramos con la idea de realizar una serie de objetos reconstruidos en 3D desde tomografía computadorizada para luego ser destruidos y reconstruidos mediante la técnica de kintsugi.
 
-<section class=" bg-gradient-to-r from-gray-700 via-gray-900 to-black">
-    <div class="max-w-6xl px-6 py-10 ">
-        
+" name="Horacio Acerbo" img="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/65a3eab3-a093-4124-ad63-93774ae93c00/public" />
 
-        <main class="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
-            <div class="absolute w-full  -z-10 md:h-96 rounded-2xl"></div>
-            
-            <div class="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
-                <img class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/65a3eab3-a093-4124-ad63-93774ae93c00/public" alt="client photo" />
-                
-                <div class="mt-2 md:mx-6">
-                    <div>
-                        <p class="text-xl font-medium tracking-tight text-white">Horacio Acerbo</p>
-                        <p class="text-blue-200 "></p>
-                    </div>
-
-                    <p class="mt-4 text-lg leading-relaxed text-white md:text-xl"> Junto a Horacio hemos trabajado en varias oportunidades, siempre en torno al diagnóstico por imágenes, en esta oportunidad nos encontramos con la idea de realizar una serie de objetos reconstruidos en 3D desde tomografía computadorizada para luego ser destruidos y reconstruidos mediante la técnica de kintsugi.
-
-</p>
-                </div>
-            </div>
-        </main>
-    </div>
-</section>
-
-<section class=" bg-gradient-to-r from-gray-700 via-gray-900 to-black">
-    <div class="max-w-6xl px-6 py-10 ">
-        
-
-        <main class="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
-            <div class="absolute w-full  -z-10 md:h-96 rounded-2xl"></div>
-            
-            <div class="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
-            <div class="mt-2 md:mx-6">
-                    <div>
-                        <p class="text-xl font-medium tracking-tight text-white">Laura Heiss</p>
-                        <p class="text-blue-200 ">website : lauraheiss.com</p>
-                    </div>
-
-                    <p class="mt-4 text-lg leading-relaxed text-white md:text-xl"> Laura se acercó a nuestro estudio con la necesidad de trabajar con material de diagnóstico por imágenes (TAC). Y viendo el potencial de su obra le propusimos construir su propia web page, una muestra itinerante y trabajar a fondo en renders y clases de arte complementando de manera hands-on sus estudios en arte terapia. Logró junto a nosotros crear su propio diálogo de obra encontró la materia prima de su trabaJo
+<ArtistCard name="Laura Heiss" text=" Laura se acercó a nuestro estudio con la necesidad de trabajar con material de diagnóstico por imágenes (TAC). Y viendo el potencial de su obra le propusimos construir su propia web page, una muestra itinerante y trabajar a fondo en renders y clases de arte complementando de manera hands-on sus estudios en arte terapia. Logró junto a nosotros crear su propio diálogo de obra encontró la materia prima de su trabaJo
  y su lenguaJe de obra. Transitó desde el aprendizaje en 3D en modelado y diseño hasta impresión 3D y técnicas del arte académico como la pintura.
-</p>
-                </div>
-                <img class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/40a4c57a-db1b-4f1e-14d3-c3c2ef767f00/public?w=248&fit=crop&auto=format&dpr=2" alt="client photo" />
-                
-            
-            </div>
-        </main>
-    </div>
-</section>
+" img="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/40a4c57a-db1b-4f1e-14d3-c3c2ef767f00/public?w=248&fit=crop&auto=format&dpr=2" />
+
 
 
 <section class="">
@@ -67,7 +27,7 @@ const Testimonial = () =>{
             <div class="absolute w-full  -z-10 md:h-96 rounded-2xl"></div>
             
             <div class="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
-                <img class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/ff7bb1fb-656e-48ec-f775-b426ff791700/Tissue" alt="client photo" />
+                <img class="w-96 h-auto md:mx-6 rounded-full object-cover shadow-md  md:rounded-2xl" src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/ff7bb1fb-656e-48ec-f775-b426ff791700/Tissue" alt="client photo" />
                 
                 <div class="mt-2 md:mx-6">
                     <div>

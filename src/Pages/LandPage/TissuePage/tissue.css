@@ -111,7 +111,7 @@ h1 {
   background: #efecdb;
   box-shadow: 0 10px 50px #5f2f1182;
 }
-img {
+.testimonial  img {
   max-width: 45vh;
   max-height: 50vh;
   transition: .5s;

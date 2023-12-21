@@ -1,0 +1,6 @@
+.picture1 {
+    width:auto; /*width of your image*/
+    height:auto; /*height of your image*/
+    background-image:url('https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/7388b8f6-6dbb-4433-acd2-8e9b04f5b700/public');
+    background-attachment: fixed;
+ }

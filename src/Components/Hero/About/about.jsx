@@ -5,17 +5,39 @@ const About = () =>{
         
         <div class="h-full w-full p-2">
         <div class=" bg-black  lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
-            <div class="flex flex-col lg:flex-row justify-between gap-8">
-                <div class="w-full lg:w-5/12 flex flex-col justify-center">
-                    <h1 class="text-3xl lg:text-4xl font-bold leading-9 text-white dark:text-white pb-4">About Us</h1>
-                    <p class="font-normal text-base leading-6  text-white">We are a petit-studio in love with 3D and new technologies. Our team works passionately on projects ranging from 3D printing, product design, 3D animation, to augmented reality, virtual reality and video games. We really enjoy spending our hours between textures, polygons, voxels and enhancing projects, committing ourselves 100% to each development, in each work, with each design and object</p>
-                </div>
-                
-<figure class="max-w-lg">
-  <img class="h-auto max-w-full rounded-lg" src="https://scontent.fmdq6-1.fna.fbcdn.net/v/t1.18169-9/10176109_10153342218799535_6440414966149805355_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=9b3078&_nc_eui2=AeE0xOxr2QGmnBcIDgsRBN3WG3j3IwEDtMcbePcjAQO0xy3CeEBchgmkbMfjZOTp9js&_nc_ohc=MM5yFbLKs5EAX-DlZ8B&_nc_ht=scontent.fmdq6-1.fna&oh=00_AfC3q4WuYIBoK2BS3NKeMo3O0_SxvnkLN8wdtSm3H2dggQ&oe=6591E266" alt="image description" />
-</figure>
+        <section class="pt-10 overflow-hidden  md:pt-0 sm:pt-16 2xl:pt-16">
+    <div class="px-4 mx-auto  sm:px-6 lg:px-8 max-w-7xl">
+        <div class="grid items-center text-white grid-cols-1 md:grid-cols-2">
 
+            <div>
+                <h2 class="text-3xl font-bold leading-tight  sm:text-4xl lg:text-5xl">Hey 👋 I am
+                    <br class="block sm:hidden" />Jenny Carter
+                </h2>
+                <p class="max-w-lg mt-3 text-xl leading-relaxed  md:mt-8">
+                    Amet minim mollit non deserunt
+                    ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
+                    Exercitation veniam consequat sunt nostrud amet.
+                </p>
+
+                <p class="mt-4 text-xl  md:mt-8">
+                    <span class="relative inline-block">
+                        <span class="absolute inline-block w-full bottom-0.5 h-2 bg-yellow-300"></span>
+                    <span class="relative"> Have a question? </span>
+                    </span>
+                    <br class="block sm:hidden" />Ask me on <a href="#" title=""
+                        class="transition-all duration-200 text-sky-500 hover:text-sky-600 hover:underline">Twitter</a>
+                </p>
             </div>
+
+            <div class="relative">
+                <img class="absolute inset-x-0 bottom-0 -mb-48 -translate-x-1/2 left-1/2" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/blob-shape.svg" alt="" />
+
+                <img class="relative w-full xl:max-w-lg xl:mx-auto 2xl:origin-bottom 2xl:scale-110" src="https://cdn.rareblocks.xyz/collection/celebration/images/team/1/business-woman.png" alt="" />
+            </div>
+
+        </div>
+    </div>
+</section>
     
         </div>
         </div>

@@ -4,9 +4,9 @@ const Collage = () => {
     return( 
         <>
          <section class="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
-        <section class="relative px-10 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
+        <section class="relative  px-10 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
             <img class="xl:max-w-6xl" src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/aa0b471d-e283-4cca-39d4-9391f4e9d200/public" alt="" />
-            <div class="content bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-48 right-5">
+            <div class="content   bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-48 right-5">
                 <div class="flex justify-between font-bold text-sm">
                     <p>Product Review</p>
                     <p class="text-gray-400">17th March, 2021</p>

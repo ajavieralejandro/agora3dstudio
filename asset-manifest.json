@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/agora3dstudio/static/css/main.f920ae26.css",
-    "main.js": "/agora3dstudio/static/js/main.14e47c0c.js",
+    "main.css": "/agora3dstudio/static/css/main.1d1cf692.css",
+    "main.js": "/agora3dstudio/static/js/main.f79857f5.js",
     "index.html": "/agora3dstudio/index.html",
-    "main.f920ae26.css.map": "/agora3dstudio/static/css/main.f920ae26.css.map",
-    "main.14e47c0c.js.map": "/agora3dstudio/static/js/main.14e47c0c.js.map"
+    "main.1d1cf692.css.map": "/agora3dstudio/static/css/main.1d1cf692.css.map",
+    "main.f79857f5.js.map": "/agora3dstudio/static/js/main.f79857f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f920ae26.css",
-    "static/js/main.14e47c0c.js"
+    "static/css/main.1d1cf692.css",
+    "static/js/main.f79857f5.js"
   ]
 }

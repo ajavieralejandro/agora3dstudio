@@ -23,7 +23,6 @@ const LandPage = () =>{
       <Projects />
       <Parallax />
       </div>
-       <About />
 
         <Feature />
 

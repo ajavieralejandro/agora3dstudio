@@ -4,7 +4,7 @@ const Team = () => {
     return(
         <>
 <div class=" ">
-                <div class="container  flex justify-center mx-auto pt-16">
+                <div class="container bg-white  flex justify-center mx-auto pt-16">
                     <div>
                         <p class="text-gray-500 text-lg text-center font-normal pb-3">BUILDING TEAM</p>
                         <h1 class="xl:text-4xl text-3xl text-center text-gray-800 font-extrabold pb-6 sm:w-4/6 w-5/6 mx-auto">The Talented People Behind the Scenes of the Organization</h1>

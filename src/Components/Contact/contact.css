@@ -1,0 +1,7 @@
+.imageDiv{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://live.staticflickr.com/4277/35181223575_c191a09ad5_h.jpg");
+}

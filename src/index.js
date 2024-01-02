@@ -1,5 +1,7 @@
 
 import React from 'react';
+import 'alpinejs';
+
 import ReactDOM from 'react-dom/client';
 import { HashRouter, createBrowserRouter,RouterProvider,BrowserRouter,Route,Routes} from 'react-router-dom'
 import App from './App';

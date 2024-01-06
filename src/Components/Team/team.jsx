@@ -17,13 +17,13 @@ const Team = () => {
                                 <div class="rounded overflow-hidden shadow-md bg-white">
                                     <div class="absolute -mt-20 w-full flex justify-center">
                                         <div class="h-32 w-32">
-                                            <img src="https://cdn.tuk.dev/assets/photo-1564061170517-d3907caa96ea.jfif" alt="Display Picture of Andres Berlin" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/agorastudio-95ded.appspot.com/o/team%2FEsteban.webp?alt=media&token=91c704b2-39d4-45d8-858a-cfa5b9013c24" alt="Display Picture of Andres Berlin" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
                                         </div>
                                     </div>
                                     <div class="px-6 mt-16">
-                                        <h1 class="font-bold text-3xl text-center mb-1">Andres Berlin</h1>
+                                        <h1 class="font-bold text-3xl text-center mb-1">Esteban Barreiro</h1>
                                         <p class="text-gray-800 text-sm text-center">Chief Executive Officer</p>
-                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">The CEO's role in raising a company's corporate IQ is to establish an atmosphere that promotes knowledge sharing and collaboration.</p>
+                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">Participa como miembro activo de la iniciativa por la democratización de la fabricación digital Fab Lab y colabora con colegas nacionales e internacionales en diferentes proyectos vinculados a la impresión 3d, la salud y la creación 3d mediante software y hardware de código abierto.</p>
                                         <div class="w-full flex justify-center pt-5 pb-5">
                                             <a href="javascript:void(0)" class="mx-5">
                                                 <div aria-label="Github" role="img">
@@ -56,13 +56,14 @@ const Team = () => {
                                 <div class="rounded overflow-hidden shadow-md bg-white">
                                     <div class="absolute -mt-20 w-full flex justify-center">
                                         <div class="h-32 w-32">
-                                            <img src="https://cdn.tuk.dev/assets/photo-1530577197743-7adf14294584.jfif" alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
+                                            <img src="https://firebasestorage.googleapis.com/v0/b/agorastudio-95ded.appspot.com/o/WhatsApp%20Image%202022-05-08%20at%2011.44.28%20AM.jpeg?alt=media&token=7dacd775-1654-4332-a3a9-7c5fa4ec109b"
+ alt="Display Picture of Silene Tokyo" role="img" class="rounded-full object-cover h-full w-full shadow-md" />
                                         </div>
                                     </div>
                                     <div class="px-6 mt-16">
-                                        <h1 class="font-bold text-3xl text-center mb-1">Silene Tokyo</h1>
+                                        <h1 class="font-bold text-3xl text-center mb-1">Jorge R.</h1>
                                         <p class="text-gray-800 text-sm text-center">Product Design Head</p>
-                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">The emphasis on innovation and technology in our companies has resulted in a few of them establishing global benchmarks in product design and development.</p>
+                                        <p class="text-center text-gray-600 text-base pt-3 font-normal">Known globally for his experiences in the field of health within hospital institutions, he is an Electromechanical Technician graduated from the "Jorge Newbery" school, he has seven years of experience in manufacturing CNC machines and 3D printers, in 2015 he was part of the team of work of the fablab "El reactor.</p>
                                         <div class="w-full flex justify-center pt-5 pb-5">
                                             <a href="javascript:void(0)" class="mx-5">
                                                 <div aria-label="Github" role="img">

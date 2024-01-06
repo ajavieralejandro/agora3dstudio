@@ -12,6 +12,7 @@ import Logos from "../../Components/Logos/logos";
 import Projects from "../../Components/LandComponents/projects";
 import Timeline from "../../Components/Timeline/timeline";
 import Parallax from '../../Components/LandComponents/Parallax/Parallax';
+
 import './landPage.css'
 const LandPage = () =>{
     return(
@@ -21,10 +22,10 @@ const LandPage = () =>{
       <Collage/>
       <div class="container mx-auto px-4">
       <Projects />
-      <Parallax />
+      <Hero />
+      <About />
       </div>
 
-        <Feature />
 
         <Team />
         <Logos />

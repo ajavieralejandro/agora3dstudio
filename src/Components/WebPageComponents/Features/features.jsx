@@ -32,10 +32,9 @@ const Features = () =>{
                     </svg>
                 </span>
 
-                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Zero Configuration</h1>
+                <h1 class="text-xl font-semibold text-gray-700 capitalize dark:text-white">Comunicación de API's</h1>
 
                 <p class="text-gray-500 dark:text-gray-300">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ab nulla quod dignissimos vel non corrupti doloribus voluptatum eveniet
                 </p>
 
               

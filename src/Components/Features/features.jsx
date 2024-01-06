@@ -6,7 +6,7 @@ export const Feature = () => {
         <div className="flex flex-col mb-6 lg:flex-row md:mb-10 ">
           <div className="lg:w-1/2">
             <h2 className="max-w-md mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none xl:max-w-lg">
-              To conquer the space you must trust.
+              Algunos de nuestros servicios
             </h2>
           </div>
           <div className="lg:w-1/2">
@@ -324,7 +324,7 @@ export const Feature = () => {
                 <path d="M8,19a3,3,0,0,1-3-3" fill="none" stroke="currentColor" />
               </svg>
             </div>
-            <h6 className="mb-2 font-semibold leading-5">First contact</h6>
+            <h6 className="mb-2 font-semibold leading-5">Biomodelos</h6>
             <p className="mb-3 text-sm text-gray-900">
               For those who have seen the Earth from space or in dreams.
             </p>

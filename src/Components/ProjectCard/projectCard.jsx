@@ -1,20 +1,15 @@
 import React from "react";
 
-const ProjectCard = ()=>{
+const ProjectCard = ({text,title})=>{
     return(
         <>
-         <article class="shadow-md mx-auto max-w-sm transform hover:-translate-y-1 duration-300 hover:shadow-xl cursor-pointer">
-            <div class="max-h-70 overflow-hidden">
-                <img class="w-full h-auto" src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/474c370e-2a59-42cf-442f-11b7b2227300/public"
-                    alt="" />
-            </div>
-            <div class="p-7 my-auto pb-12 ">
-                <h1 class="md:text-2xl text-md font-semibold text-gray-700">Visit Mordor</h1>
-                <p class="md:text-xl text-sm font-light leading-relaxed text-gray-400 mt-5">
-                    Super creative and colorful illustrations by Matheus Lopes. Check out more of his amazing artworks in his portfolio.
-                </p>
-            </div>
-        </article>
+    
+<a href="#" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
+<p class="font-normal text-gray-700 dark:text-gray-400">{text}</p>
+</a>
+
         </>
     )
 }

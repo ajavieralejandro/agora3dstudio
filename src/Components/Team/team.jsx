@@ -14,7 +14,7 @@ const Team = () => {
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
                 <div class="w-full md:w-2/5 h-80">
-                    <img class="object-center object-cover w-full h-full" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" />
+                    <img class="object-center object-cover w-full h-full" src="https://firebasestorage.googleapis.com/v0/b/agorastudio-95ded.appspot.com/o/team%2FEsteban.webp?alt=media&token=91c704b2-39d4-45d8-858a-cfa5b9013c24" alt="photo" />
                 </div>
                 <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
                     <p class="text-xl text-white font-bold">Dany Bailey</p>
@@ -46,7 +46,7 @@ const Team = () => {
             </div>
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
                 <div class="w-full md:w-2/5 h-80">
-                    <img class="object-center object-cover w-full h-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" />
+                    <img class="object-center object-cover w-full h-full" src="https://firebasestorage.googleapis.com/v0/b/agorastudio-95ded.appspot.com/o/team%2FJavierR.webp?alt=media&token=0d770d25-2c34-4c12-9318-a1843dfd2a4e" alt="photo" />
                 </div>
                 <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
                     <p class="text-xl text-white font-bold">Lucy Carter</p>

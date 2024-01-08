@@ -10,8 +10,7 @@ import Feature  from "../../Components/Features/features";
 import Academy from "./Accademy/academy";
 import Logos from "../../Components/Logos/logos";
 import Projects from "../../Components/LandComponents/projects";
-import Timeline from "../../Components/Timeline/timeline";
-import Parallax from '../../Components/LandComponents/Parallax/Parallax';
+import Costumers from "../../Components/Costumers/Costumers";
 
 import './landPage.css'
 const LandPage = () =>{
@@ -29,6 +28,7 @@ const LandPage = () =>{
 
         <Team />
         <Logos />
+        <Costumers />
         <Contact />
         <Footer />
     </div>

@@ -71,7 +71,7 @@ const WebPages = () =>{
             </div>
           </div>
           <div class="md:mb-12 lg:mb-0">
-            <img src="https://mdbcdn.b-cdn.net/img/new/ecommerce/vertical/080.jpg"
+            <img src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/07051094-3480-4541-67d8-3a9fdb0b0800/public"
               class="lg:rotate-[6deg] w-full rounded-lg shadow-lg dark:shadow-black/20" alt="image" />
           </div>
         </div>

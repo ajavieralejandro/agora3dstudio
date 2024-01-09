@@ -17,7 +17,7 @@ const Team = () => {
                     <img class="object-center object-cover w-full h-full" src="https://firebasestorage.googleapis.com/v0/b/agorastudio-95ded.appspot.com/o/team%2FEsteban.webp?alt=media&token=91c704b2-39d4-45d8-858a-cfa5b9013c24" alt="photo" />
                 </div>
                 <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
-                    <p class="text-xl text-white font-bold">Dany Bailey</p>
+                    <p class="text-xl text-white font-bold">Esteban </p>
                     <p class="text-base text-gray-400 font-normal">Software Engineer</p>
                     <p class="text-base leading-relaxed text-gray-500 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <div class="flex justify-start space-x-2">
@@ -78,12 +78,14 @@ const Team = () => {
             </div>
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
                 <div class="w-full md:w-2/5 h-80">
-                    <img class="object-center object-cover w-full h-full" src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80" alt="photo" />
+                    <img class="object-center object-cover w-full h-full" src="https://firebasestorage.googleapis.com/v0/b/agorastudio-95ded.appspot.com/o/team%2Fnico.webp?alt=media&token=6c0edf9d-5b5d-43bd-a094-17cb06b08a4b"
+ alt="photo" />
                 </div>
                 <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
-                    <p class="text-xl text-white font-bold">Jade Bradley</p>
-                    <p class="text-base text-gray-400 font-normal">Dev Ops</p>
-                    <p class="text-base leading-relaxed text-gray-500 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="text-xl text-white font-bold">Nicolas S.</p>
+                    <p class="text-base text-gray-400 font-normal">3D Artist / Environment Artist / Animator</p>
+                    <p class="text-base leading-relaxed text-gray-500 font-normal">
+                    He is the youngest 3D artist in the studio, he excels at creating models for 3D printing and video games. Passionate about free and open source software, he is detail-oriented and energetic.</p>
                     <div class="flex justify-start space-x-2">
                         <a href="#" class="text-gray-500 hover:text-gray-600">
                             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
@@ -110,12 +112,13 @@ const Team = () => {
             </div>
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
                 <div class="w-full md:w-2/5 h-80">
-                    <img class="object-center object-cover w-full h-full" src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" />
+                    <img class="object-center object-cover w-full h-full" src="https://firebasestorage.googleapis.com/v0/b/agorastudio-95ded.appspot.com/o/WhatsApp%20Image%202022-05-08%20at%2011.44.28%20AM.jpeg?alt=media&token=7dacd775-1654-4332-a3a9-7c5fa4ec109b"
+ alt="photo" />
                 </div>
                 <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
-                    <p class="text-xl text-white font-bold">Dany Bailey</p>
-                    <p class="text-base text-gray-400 font-normal">Software Engineer</p>
-                    <p class="text-base leading-relaxed text-gray-500 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="text-xl text-white font-bold">Jorge </p>
+                    <p class="text-base text-gray-400 font-normal">Industrial Designer/3D print Technician</p>
+                    <p class="text-base leading-relaxed text-gray-500 font-normal">Known globally for his experiences in the field of health within hospital institutions, he is an Electromechanical Technician graduated from the "Jorge Newbery" school</p>
                     <div class="flex justify-start space-x-2">
                         <a href="#" class="text-gray-500 hover:text-gray-600">
                             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
@@ -142,7 +145,7 @@ const Team = () => {
             </div>
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
                 <div class="w-full md:w-2/5 h-80">
-                    <img class="object-center object-cover w-full h-full" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80" alt="photo" />
+                    <img class="object-center object-cover w-full h-full" src="https://firebasestorage.googleapis.com/v0/b/agorastudio-95ded.appspot.com/o/team%2Fdante.webp?alt=media&token=5666c289-289b-4196-8eee-5b7cd9822912" alt="photo" />
                 </div>
                 <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
                     <p class="text-xl text-white font-bold">Lucy Carter</p>
@@ -174,7 +177,7 @@ const Team = () => {
             </div>
             <div class="w-full bg-gray-900 rounded-lg sahdow-lg overflow-hidden flex flex-col md:flex-row">
                 <div class="w-full md:w-2/5 h-80">
-                    <img class="object-center object-cover w-full h-full" src="https://images.unsplash.com/photo-1499952127939-9bbf5af6c51c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1176&q=80" alt="photo" />
+                    <img class="object-center object-cover w-full h-full" src="https://firebasestorage.googleapis.com/v0/b/agorastudio-95ded.appspot.com/o/team%2Fluz.webp?alt=media&token=9b5244c4-9937-4270-9a16-c7843b168048" alt="photo" />
                 </div>
                 <div class="w-full md:w-3/5 text-left p-4 md:p-4 space-y-2">
                     <p class="text-xl text-white font-bold">Jade Bradley</p>

@@ -36,7 +36,7 @@ export function FeaturedImageGallery() {
           alt=""
         />
       </div>
-      <div className="grid grid-cols-5 gap-4">
+      <div className="grid grid-cols-5 gap-2">
         {data.map(({ imgelink }, index) => (
           <div key={index}>
             <img

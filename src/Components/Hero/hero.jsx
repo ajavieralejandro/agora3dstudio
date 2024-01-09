@@ -4,10 +4,13 @@ const Hero = () =>{
     return(
         <>
             <section class="bg-black  text-white "> 
-            
+
             <div class="grid h-screen place-items-center">
-    <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-        
+                
+    <div class="grid w-full place-items-center px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+    <div class=" sm:hidden sm:mt-0 sm:col-span-5 sm:flex ">
+        <img  className=" w-44"  src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/7388b8f6-6dbb-4433-acd2-8e9b04f5b700/public" alt="bg"/>
+        </div>     
         <div class="mr-auto text-center place-self-center lg:col-span-7">
             
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Agora3d Academy</h1>
@@ -20,8 +23,9 @@ const Hero = () =>{
                 Speak to Sales
             </a> 
         </div>
-        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-        <img  className="w-3/4"  src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/7388b8f6-6dbb-4433-acd2-8e9b04f5b700/public" alt="bg"/>
+        
+        <div class=" hidden lg:mt-0 lg:col-span-5 lg:flex ">
+        <img  className="md:w-3/4 w-44"  src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/7388b8f6-6dbb-4433-acd2-8e9b04f5b700/public" alt="bg"/>
         </div>      
         </div>          
     </div>

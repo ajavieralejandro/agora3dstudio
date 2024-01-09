@@ -9,6 +9,7 @@ const Collage = () => {
             <div class="content bg-gray-700 p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-48 right-5">
                 <div class="flex justify-between font-bold text-sm">
                 <h2 class="text-5xl text-white text-center font-semibold mt-4 md:mt-10">Agora3dStudio</h2>
+                
 
                 </div>
                 <div className="flex items-center">

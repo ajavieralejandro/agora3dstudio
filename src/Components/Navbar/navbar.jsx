@@ -14,6 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
+import Logo from '../../img/Logo.png';
 const style = {
 
     background : 'black'
@@ -65,13 +66,17 @@ function DrawerAppBar(props) {
           >
             <MenuIcon />
           </IconButton>
+          <img src={Logo} className='h-6' />
+
           <Typography
             variant="h6"
             component="div"
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' } }}
           >
-            AGORA3DSTUDIO
+            AGORA3DSTUDIO®
+            
           </Typography>
+          
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
               <Button key={item} sx={{ color: '#fff' }}>

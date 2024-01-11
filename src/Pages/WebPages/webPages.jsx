@@ -82,9 +82,10 @@ const WebPages = () =>{
 
 </div>
 
-<Contact />
 
 </div>
+<Contact />
+
 <Footer />
 
 </div>

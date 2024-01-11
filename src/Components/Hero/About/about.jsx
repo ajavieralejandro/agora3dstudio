@@ -3,7 +3,7 @@ import Team from "../../Team/team";
 const About = () =>{
     return(
         
-        <section class="flex items-center bg-stone-100 lg:h-screen font-poppins dark:bg-gray-800 ">
+        <section class="flex items-center  lg:h-screen font-poppins bg-gray-900 ">
         <div class="justify-center flex-1 max-w-6xl py-4 mx-auto lg:py-6 md:px-6">
             <div class="px-4 mb-10 md:text-center md:mb-20">
                 <p class="mb-2 text-lg font-semibold text-blue-500 dark:text-gray-400">

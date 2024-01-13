@@ -9,7 +9,6 @@ const Artists = () =>{
         <>
         <Navbar />
         <div className="artists pt-12 bg-black">
-        <TestimonialCard />
         <Testimonial />
         
         </div>

@@ -18,36 +18,12 @@ const Testimonial = () =>{
  y su lenguaJe de obra. Transitó desde el aprendizaje en 3D en modelado y diseño hasta impresión 3D y técnicas del arte académico como la pintura.
 " img="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/40a4c57a-db1b-4f1e-14d3-c3c2ef767f00/public?w=248&fit=crop&auto=format&dpr=2" />
 
-
-
-<section class="">
-    <div class="max-w-6xl px-6 py-10 ">
-       
-        <main class="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-12">
-            <div class="absolute w-full  -z-10 md:h-96 rounded-2xl"></div>
-            
-            <div class="w-full p-6 bg-blue-600 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
-                <img class="w-96 h-auto md:mx-6 rounded-full object-cover shadow-md  md:rounded-2xl" src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/ff7bb1fb-656e-48ec-f775-b426ff791700/Tissue" alt="client photo" />
-                
-                <div class="mt-2 md:mx-6">
-                    <div>
-                        <p class="text-xl font-medium tracking-tight text-white">Laura Heiss</p>
-                        <p class="text-blue-200 "></p>
-                    </div>
-
-                    <p class="mt-4 text-lg leading-relaxed text-white md:text-xl"> El caso de Jessica fué especial para nosotros ella poseía diferentes TACs (tomografìa computarizada) de frutas y verduras y necesitaba hacer una limpieza aprendiendo en el proceso cómo organizar las herramientas
+<ArtistCard name="Jessica Roudes" text=" El caso de Jessica fué especial para nosotros ella poseía diferentes TACs (tomografìa computarizada) de frutas y verduras y necesitaba hacer una limpieza aprendiendo en el proceso cómo organizar las herramientas
  y trabajar sobre las tomografías.
 Por lo tanto al poner manos a la obra nos encontramos con bananas, cestas completas de fruta,. frutilla.durazno, manzanas. y una increíble selección de lo que debìa ser visto y lo que no.  La obra final fue presentada junto al artista de nuevos medios Franz Fischnaller en el Deep Space de Festival Internacional  Ars Electrónica 2022, en Linz, Austria.
-Estamos muy orgullosos de haber acompañado a la artista en su proceso creativo.
+Estamos muy orgullosos de haber acompañado a la artista en su proceso creativo." img="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/ff7bb1fb-656e-48ec-f775-b426ff791700/Tissue" />
 
-</p>
-                    
-                 
-                </div>
-            </div>
-        </main>
-    </div>
-</section>
+
 </div>
         </div>
     )

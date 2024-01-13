@@ -21,7 +21,7 @@ const style = {
 };
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About', 'Contact'];
+const navItems = ['Home', 'About','Team', 'Contact'];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -34,7 +34,7 @@ function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        MUI
+        AGORA3DSTUDIO®
       </Typography>
       <Divider />
       <List>

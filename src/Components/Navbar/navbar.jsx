@@ -15,6 +15,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Logo from '../../img/Logo.png';
+import { Link } from 'react-router-dom';
 const style = {
 
     background : 'black'
@@ -39,9 +40,12 @@ function DrawerAppBar(props) {
       <Divider />
       <List>
         {navItems.map((item) => (
+
           <ListItem key={item} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
-              <ListItemText primary={item} />
+            <Link  to="#About"   >       
+             <ListItemText primary={item} />
+              </Link>
             </ListItemButton>
           </ListItem>
         ))}

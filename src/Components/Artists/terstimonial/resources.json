@@ -1,6 +1,6 @@
-{
-    "artists":[
-        {
+ {
+    "Laura":{
+        
             "name" : "Laura Heiss",
             "images" : [
                 "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/ff7bb1fb-656e-48ec-f775-b426ff791700/public",
@@ -14,5 +14,5 @@
 
             ]
         }
-    ]
+    
 }

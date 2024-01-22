@@ -1,57 +1,26 @@
-import React from "react";
 const Gallery = () =>{
     return(
-        <>
-           
-
-<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-    <div class="grid gap-4">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt=""/>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt=""/>
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt=""/>
-        </div>
-    </div>
-    <div class="grid gap-4">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="" />
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="" />
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="" />
-        </div>
-    </div>
-    <div class="grid gap-4">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="" />
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="" />
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="" />
-        </div>
-    </div>
-    <div class="grid gap-4">
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="" />
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="" />
-        </div>
-        <div>
-            <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="" />
-        </div>
+        <div class="p-5 sm:p-8">
+    <div class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
+        <img src="https://source.unsplash.com/bYuI23mnmDQ"/>
+        <img src="https://source.unsplash.com/Nllx4R-2c3o"/>
+        <img src="https://source.unsplash.com/lp40q07DIe0"/>
+        <img src="https://source.unsplash.com/wfalq01jJuU"/>
+        <img src="https://source.unsplash.com/rMHNK_skwwU"/>
+        <img src="https://source.unsplash.com/WBMjuGpbrCQ"/>
+        <img src="https://source.unsplash.com/nCUZ5BYBL_o"/>
+        <img src="https://source.unsplash.com/3u4fzMQZhjc"/>
+        <img src="https://source.unsplash.com/haOIqIPSwps"/>
+        <img src="https://source.unsplash.com/3UrYD7NNVxk"/>
+        <img src="https://source.unsplash.com/fm1JKDItlVM"/>
+        <img src="https://source.unsplash.com/qPpq1EVs8vw"/>
+        <img src="https://source.unsplash.com/xRyL63AwZFE"/>
+        <img src="https://source.unsplash.com/XeNKWTiCPNw"/>
+        <img src="https://source.unsplash.com/DFt3T5r_4FE"/>
+        <img src="https://source.unsplash.com/Ebwp2-6BG8E"/>
     </div>
 </div>
 
-        </>
     )
 }
 

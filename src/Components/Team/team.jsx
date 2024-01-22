@@ -18,8 +18,8 @@ const Team = () => {
                 </div>
                 <div class="w-full md:w-3/5 text-left p-6 md:p-4 space-y-2">
                     <p class="text-xl text-white font-bold">Esteban </p>
-                    <p class="text-base text-gray-400 font-normal">Software Engineer</p>
-                    <p class="text-base leading-relaxed text-gray-500 font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p class="text-base text-gray-400 font-normal">CEO / 3D Generalist / Game Artist</p>
+                    <p class="text-base leading-relaxed text-gray-500 font-normal">Participates as an active member of the Fab Lab initiative for the democratization of digital manufacturing and collaborates with national and international colleagues in different projects related to 3d printing</p>
                 
                 </div>
             </div>

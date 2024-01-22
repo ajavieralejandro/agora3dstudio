@@ -1,18 +1,53 @@
  {
-    "Laura":{
+    "Jessica":{
         
-            "name" : "Laura Heiss",
+            "name" : "Jessica Roudes",
             "images" : [
                 "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/ff7bb1fb-656e-48ec-f775-b426ff791700/public",
                 "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/d1b218dc-8162-47e5-1ef8-ba9a2a813400/public",
                 "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/6a484d06-9bf9-4966-a1f6-a093c3501a00/public",
-                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/71235e32-471b-47c2-b768-84a6fb483c00/public",
-                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/74c2ec4d-64c1-4b07-bec9-47972aff4600/public"
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/71235e32-471b-47c2-b768-84a6fb483c00/public"
+     
 
 
             
 
             ]
+            
+        },
+        "Horacio":{
+        
+            "name" : "Jessica Roudes",
+            "images" : [
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/89e9798f-75b3-4f15-68b7-fbd2b872df00/public",
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/1845b865-4eff-4ee7-34fe-c242a022ad00/public",
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/52a63125-5f1c-4bcc-22c6-8b50acf60100/public",
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/cc967dc0-dfa1-46f9-4c9b-01984cfe4d00/public"
+      
+
+
+            
+
+            ]
+        },
+        "Laura":{
+        
+            "name" : "Jessica Roudes",
+            "images" : [
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/4aa17241-9190-4338-36f3-779c42df9e00/public",
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/86ac925e-90f0-4672-5da0-a88c57e46800/public",
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/bade9527-e43c-4643-d5b0-b0cf97b0e200/public",
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/571a8439-08a8-4d69-2b6f-9979f6995b00/public?w=248&fit=crop&auto=format&dpr=2"
+  
+
+
+            
+
+            ],
+            "text1":"Laura se acercó a nuestro estudio con la necesidad de trabajar con material de diagnóstico por imágenes (TAC). Y viendo el potencial de su obra le propusimos construir su propia web page, una muestra itinerante y trabajar a fondo en renders y clases de arte complementando de manera hands-on sus estudios en arte terapia.",
+            "text2":"Logró junto a nosotros crear su propio diálogo de obra encontró la materia prima de su trabaJo y su lenguaJe de obra. Transitó desde el aprendizaje en 3D en modelado y diseño hasta impresión 3D y técnicas del arte académico como la pintura."
+        
         }
+        
     
 }

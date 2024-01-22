@@ -1,25 +1,19 @@
 const Gallery = () =>{
     return(
-        <div class="p-5 sm:p-8">
-    <div class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
-        <img src="https://source.unsplash.com/bYuI23mnmDQ"/>
-        <img src="https://source.unsplash.com/Nllx4R-2c3o"/>
-        <img src="https://source.unsplash.com/lp40q07DIe0"/>
-        <img src="https://source.unsplash.com/wfalq01jJuU"/>
-        <img src="https://source.unsplash.com/rMHNK_skwwU"/>
-        <img src="https://source.unsplash.com/WBMjuGpbrCQ"/>
-        <img src="https://source.unsplash.com/nCUZ5BYBL_o"/>
-        <img src="https://source.unsplash.com/3u4fzMQZhjc"/>
-        <img src="https://source.unsplash.com/haOIqIPSwps"/>
-        <img src="https://source.unsplash.com/3UrYD7NNVxk"/>
-        <img src="https://source.unsplash.com/fm1JKDItlVM"/>
-        <img src="https://source.unsplash.com/qPpq1EVs8vw"/>
-        <img src="https://source.unsplash.com/xRyL63AwZFE"/>
-        <img src="https://source.unsplash.com/XeNKWTiCPNw"/>
-        <img src="https://source.unsplash.com/DFt3T5r_4FE"/>
-        <img src="https://source.unsplash.com/Ebwp2-6BG8E"/>
-    </div>
-</div>
+        <section className="py-6 bg-black dark:text-gray-50">
+        <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
+            <img src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/ff7bb1fb-656e-48ec-f775-b426ff791700/public" alt="" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square" />
+            <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?0" />
+            <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?1" />
+            <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?2" />
+            <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?3" />
+            <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?4" />
+            <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?5" />
+            <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?6" />
+            <img alt="" className="w-full h-full rounded shadow-sm min-h-48 dark:bg-gray-500 aspect-square" src="https://source.unsplash.com/random/200x200/?7" />
+            <img src="https://source.unsplash.com/random/302x302/" alt="" className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-1 md:row-start-3 dark:bg-gray-500 aspect-square" />
+        </div>
+    </section>
 
     )
 }

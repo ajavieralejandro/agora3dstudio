@@ -15,10 +15,11 @@ const App = () => {
     
 <HashRouter>
   <Routes>
-  <Route exact path="/" Component={LandPage} />
+  <Route exact name="Land" path="/" Component={LandPage} />
+  <Route exact path="/Home" Component={LandPage} />
 
   <Route exact path="/artists" Component={Artists} />
-  <Route exact path="/webPages" Component={WebPages} />
+  <Route exact path="/Webs" Component={WebPages} />
   <Route exact path="/Academy" Component={Academy} />
 
 

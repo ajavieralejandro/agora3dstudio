@@ -27,7 +27,7 @@ const Projects = () =>{
 			<Link to="/artists" relative="path">
 			<ProjectCard title="Proyectos Artisticos" text="Explora nuestro trabajo acompañando a diversos artistas a realizar sus obras" />
 			</Link>
-			<Link to="/webpages" relative="path">
+			<Link to="/Webs" relative="path">
 			<ProjectCard title="Diseño Web" text="Disponemos de un portafolio de distintos sitios implementados por el estudio" />
 			</Link>
 			<ProjectCard title="Proyectos" text="Distintos proyectos donde el estudio participa y forma parte activamente." />

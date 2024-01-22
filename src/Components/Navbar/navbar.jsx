@@ -16,13 +16,14 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Logo from '../../img/Logo.png';
 import { Link } from 'react-router-dom';
+import LandPage from '../../Pages/LandPage/landPage';
 const style = {
 
     background : 'black'
 };
 
 const drawerWidth = 240;
-const navItems = ['Home', 'About','Team', 'Contact'];
+const navItems = [{"link":'Home'}, {"link":'Artists'},{"link":'Proyects'},{"link":'Academy'},{"link":'Webs'}];
 
 function DrawerAppBar(props) {
   const { window } = props;
@@ -39,16 +40,25 @@ function DrawerAppBar(props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item) => (
+        
 
-          <ListItem key={item} disablePadding>
+          <ListItem key={'Home'} disablePadding>
             <ListItemButton sx={{ textAlign: 'center' }}>
-            <Link  to="#About"   >       
-             <ListItemText primary={item} />
+            <Link to="../Home"  exact  >
+             <ListItemText primary={'Home'} />
               </Link>
             </ListItemButton>
+    
           </ListItem>
-        ))}
+          <ListItem key={'Artists'} disablePadding>
+            <ListItemButton sx={{ textAlign: 'center' }}>
+            <Link to="../Artists"  exact  >
+             <ListItemText primary={'Artists'} />
+              </Link>
+            </ListItemButton>
+    
+          </ListItem>
+        
       </List>
     </Box>
   );
@@ -82,11 +92,30 @@ function DrawerAppBar(props) {
           </Typography>
           
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
-            {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
-                {item}
+                 <Link to="../Home"  exact  >
+              <Button key="Home" sx={{ color: '#fff' }}>
+                Home
               </Button>
-            ))}
+              </Link>
+              <Link to="../Home"  exact  >
+              <Button key="Home" sx={{ color: '#fff' }}>
+                Proyects
+              </Button>
+              </Link>
+              <Link to="../Artists"  exact  >
+              <Button key="Artists" sx={{ color: '#fff' }}>
+                Artists
+              </Button>
+              </Link>      <Link to="../Webs"  exact  >
+              <Button key="Webs" sx={{ color: '#fff' }}>
+                Webs
+              </Button>
+              </Link>
+              <Link to="../Academy"  exact  >
+              <Button key="Academy" sx={{ color: '#fff' }}>
+                Academy
+              </Button>
+              </Link>
           </Box>
         </Toolbar>
       </AppBar>

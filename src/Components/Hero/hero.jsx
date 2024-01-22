@@ -23,7 +23,7 @@ const Hero = () =>{
         </div>
         
         <div class=" hidden lg:mt-0 lg:col-span-5 lg:flex ">
-        <img  className="md:w-3/4 w-44"  src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/7388b8f6-6dbb-4433-acd2-8e9b04f5b700/public" alt="bg"/>
+        <img  className="md:w-3/4 w-22"  src="https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/7388b8f6-6dbb-4433-acd2-8e9b04f5b700/public" alt="bg"/>
         </div>      
         </div>          
     </div>

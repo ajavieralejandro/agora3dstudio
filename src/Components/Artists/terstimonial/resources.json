@@ -2,8 +2,17 @@
     "artists":[
         {
             "name" : "Laura Heiss",
-            "img" : "",
-            "text":"asd"
+            "images" : [
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/ff7bb1fb-656e-48ec-f775-b426ff791700/public",
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/d1b218dc-8162-47e5-1ef8-ba9a2a813400/public",
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/6a484d06-9bf9-4966-a1f6-a093c3501a00/public",
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/71235e32-471b-47c2-b768-84a6fb483c00/public",
+                "https://imagedelivery.net/rXQkQjLMcsIgr9J-xeKCWA/74c2ec4d-64c1-4b07-bec9-47972aff4600/public"
+
+
+            
+
+            ]
         }
     ]
 }

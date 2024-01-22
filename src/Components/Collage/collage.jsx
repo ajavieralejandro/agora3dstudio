@@ -13,7 +13,7 @@ const Collage = () => {
 
                 </div>
                 <div className="flex items-center">
-                <div><img className="h-auto w-full" src={Logo} /></div>
+                <div><img className="h-auto w-22" src={Logo} /></div>
                 <div><p class="p-2 m-2 justify-center  text-white text-md  leading-relaxed">Queremos acompañarte, utilizando herramientas 3d y web de vanguardia en el desarrollo de tus ideas</p>
                 </div>
                 </div>

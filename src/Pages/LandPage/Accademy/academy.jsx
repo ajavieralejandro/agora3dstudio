@@ -8,23 +8,22 @@ const Academy = () => {
       <Navbar />
       <div class="">
 
-      <section class="pt-12 pb-1 bg-black flex flex-col justify-center">
-          <div class="grid grid-cols-2 gap-2 max-w-6xl mx-auto">
-         
+      <section class="pt-12 -mb-24 bg-black flex flex-col justify-center">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-2 max-w-6xl mx-auto">
             <div class="-mt-32 flex justify-start">
               <img class="rounded-lg object-cover overflow-hidden" src="https://images.unsplash.com/photo-1533557950217-8768f2ee7491?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" />
             </div>
             
-            <div class="flex justify-start -mr-28 ml-28">
+            <div class="md:flex hidden  justify-start -mr-28 ml-28">
               <img class="w-2/3 h-2/3 object-cover rounded-lg overflow-hidden" src="https://images.unsplash.com/photo-1620371350502-999e9a7d80a4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=670&q=80" />
             </div>
             
-            <div class="-translate-y-96 transform ml-28 -mr-28 p-8 shadow-xl rounded-xl overflow-hidden bg-gray-900">
+            <div class="md:-translate-y-96 md:transform md:ml-28 md:s-mr-28 p-8 shadow-xl rounded-xl overflow-hidden bg-gray-900">
               <div class="space-y-4">
                 <p class="text-5xl font-bold text-white tracking-tight">
                   Agora3dAcademy
                 </p>
-                <p class="text-xl text-white">
+                <p class="md:text-xl text-sm text-white">
                 Ágora 3D es un espacio virtual que ofrece cursos de diseño, modelado 3d, impresión 3D, conversión de imágenes médicas y una comunidad online. Está orientado al público en general, docentes, estudiantes, investigadores, hobbistas y profesionales. Propone un lugar de intercambio e inspiración desde la comprensión del funcionamiento de una impresora 3D, usos y prácticas con el fin de desarrollar posibles aplicaciones y el diseño y modelado 3D orientado a la fabricación digital y el contenido interactivo.
 Estamos a su entera disposición.
 
